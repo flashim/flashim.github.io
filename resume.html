@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashim Saha |  — Résumé</title>
+  <meta name="description" content="Interactive resume of Ashim Saha — Senior Technology Architect with 23+ years across frontend architecture, enterprise modernization and AI-assisted engineering. Ask me about my experience, stack and domains." />
+  <meta name="author" content="Ashim Saha" />
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      background: #eef0f4;
+      color: #14161a;
+      font: 11pt/1.55 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .toolbar {
+      position: sticky; top: 0; z-index: 2;
+      display: flex; justify-content: center; gap: .75rem;
+      padding: .9rem; background: #14161a;
+    }
+    .toolbar button {
+      font: 600 12px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: .04em; text-transform: uppercase;
+      color: #0b0d10; background: #fff; border: 0; border-radius: 6px;
+      padding: .6rem 1rem; cursor: pointer;
+    }
+    .toolbar button.secondary { color: #fff; background: transparent; box-shadow: inset 0 0 0 1px #4a4f57; }
+    .page {
+      max-width: 210mm; margin: 1.25rem auto 2rem; padding: 14mm 14mm 12mm;
+      background: #fff; box-shadow: 0 2px 18px rgba(0,0,0,.08);
+    }
+    header { border-bottom: 2px solid #14161a; padding-bottom: .7rem; margin-bottom: 1.1rem; }
+    h1 { margin: 0; font-size: 21pt; letter-spacing: -.02em; }
+    h1 .sep { color: #8b9099; font-weight: 400; margin: 0 .35em; }
+    h1 .role { color: #0a58ca; }
+    .sub { margin: .35rem 0 0; font-size: 10.5pt; color: #3c424b; letter-spacing: .01em; }
+    .contact { margin: .7rem 0 0; font: 9.5pt/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: #3c424b; }
+    .contact a { color: #0a58ca; text-decoration: none; }
+    h2 {
+      margin: 1.3rem 0 .5rem; font-size: 10pt; letter-spacing: .12em; text-transform: uppercase;
+      color: #14161a; border-bottom: 1px solid #d7dae0; padding-bottom: .25rem;
+    }
+    .summary { margin: 0; font-size: 10.5pt; }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: .2rem 1.6rem; margin: .2rem 0 0; padding: 0; list-style: none; }
+    .cols li { font-size: 10pt; padding-left: .9rem; position: relative; }
+    .cols li::before { content: ''; position: absolute; left: 0; top: .55em; width: 4px; height: 4px; background: #0a58ca; }
+    .tech { font: 9.5pt/1.7 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: #3c424b; }
+    .tech span { display: inline-block; margin-right: .9rem; }
+    .job, .work { break-inside: avoid; margin-bottom: .95rem; }
+    .job h3, .work h3 { margin: 0; font-size: 11pt; }
+    .job__meta { margin: .15rem 0 .35rem; font: 9.5pt/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: #0a58ca; }
+    .job__period { color: #6b7280; }
+    .job__body p, .work__body p { margin: .3rem 0 0; font-size: 10pt; color: #262b33; }
+    .work { padding-left: .8rem; border-left: 2px solid #dfe3e9; }
+    .work__summary { margin: .2rem 0 .5rem; font-size: 10pt; color: #262b33; }
+    .work__evidence { margin: 0; }
+    .work__row { display: grid; grid-template-columns: 8.5rem 1fr; gap: .5rem; padding: .22rem 0; }
+    .work__row + .work__row { border-top: 1px solid #e6e9ee; }
+    .work__row dt { font: 600 8.5pt/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; text-transform: uppercase; letter-spacing: .05em; color: #6b7280; padding-top: .1rem; }
+    .work__row dd { margin: 0; font-size: 9.5pt; line-height: 1.5; color: #3c424b; }
+    footer { margin-top: 1.4rem; padding-top: .6rem; border-top: 1px solid #d7dae0; font-size: 8.5pt; color: #6b7280; text-align: center; }
+    @page { size: A4; margin: 12mm; }
+    @media print {
+      body { background: #fff; font-size: 10.5pt; }
+      .toolbar { display: none !important; }
+      .page { max-width: none; margin: 0; padding: 0; box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <button onclick="window.print()">Print / Save as PDF</button>
+    <button class="secondary" onclick="history.length > 1 ? history.back() : location.href='./'">Back to the resume</button>
+  </div>
+
+  <div class="page">
+    <header>
+      <h1>Ashim Saha<span class="sep">|</span><span class="role">Senior Technology Architect</span></h1>
+      <p class="sub">Frontend Architecture · Enterprise Modernization · AI-Assisted Engineering</p>
+      <p class="contact">
+        Pune, India &middot; +91 88888 48921 &middot;
+        <a href="mailto:flashim@gmail.com">flashim@gmail.com</a> &middot;
+        <a href="https://www.linkedin.com/in/flashim/">linkedin.com/in/flashim</a> &middot;
+        <a href="https://github.com/flashim">github.com/flashim</a>
+      </p>
+    </header>
+
+    <h2>Profile</h2>
+    <p class="summary">I am a Technology Architect with 23+ years of experience across software engineering, frontend architecture, enterprise modernization, and technical leadership. I combine architectural thinking with hands-on engineering to bridge business, product, and engineering teams and deliver scalable, maintainable solutions.</p>
+
+    <h2>Core competencies</h2>
+    <ul class="cols">
+      <li>Solution and Frontend Architecture</li>
+      <li>Enterprise Application Modernization</li>
+      <li>React and Modern Web Technologies</li>
+      <li>UI/UX and Application Usability</li>
+      <li>Architecture Standards and Engineering Best Practices</li>
+      <li>Technical Leadership and Stakeholder Management</li>
+      <li>Presales, RFPs and Proofs of Concept</li>
+      <li>Performance, Maintainability and Quality Engineering</li>
+    </ul>
+
+    <h2>Selected work</h2>
+      <article class="work">
+        <h3>Healthcare &amp; Life Sciences Modernization</h3>
+        <p class="work__summary">Defined the frontend modernization approach for a legacy health-insurance application, validating an incremental React conversion through a proof of concept.</p>
+        <dl class="work__evidence">
+          <div class="work__row"><dt>Challenge</dt><dd>The application needed modernizing, but its business functionality had to stay available throughout.</dd></div>
+          <div class="work__row"><dt>My contribution</dt><dd>I led the frontend modernization approach and validated the incremental React conversion through a proof of concept.</dd></div>
+          <div class="work__row"><dt>Technical approach</dt><dd>The proof of concept fixed the migration boundary — which parts of the interface could move to React while the rest of the application kept running — and tested that a slice could be converted without disrupting the live system.</dd></div>
+          <div class="work__row"><dt>Outcome</dt><dd>It demonstrated that the application could be modernized incrementally rather than all at once, which is what makes modernization a decision a business can actually take.</dd></div>
+        </dl>
+      </article>
+      <article class="work">
+        <h3>Cloud Onboarding — Remote Visualization for Lab Users</h3>
+        <p class="work__summary">Evaluated the cloud onboarding and remote-visualization architecture for a chromatography data system used in scientific laboratories.</p>
+        <dl class="work__evidence">
+          <div class="work__row"><dt>Challenge</dt><dd>Instrument data was tied to the bench: results were visible on the instrument itself, but lab users working elsewhere could not see them.</dd></div>
+          <div class="work__row"><dt>My contribution</dt><dd>I assessed how the software could be onboarded to a cloud environment and what a remote-visualization architecture would need to do for lab users.</dd></div>
+          <div class="work__row"><dt>Technical approach</dt><dd>I kept the onboarding of the instrument software separate from the movement of the instrument's own processing or control functions — onboarding the application to the cloud does not move the instrument's control loop — and defined the boundary between them before expressing the result as a technical proposal.</dd></div>
+          <div class="work__row"><dt>Outcome</dt><dd>A defensible technical position for the client and their engineers: what could move to the cloud, what had to stay, and what the integration boundary looked like.</dd></div>
+        </dl>
+      </article>
+      <article class="work">
+        <h3>Architecture at Scale — Genetic-Testing Platform</h3>
+        <p class="work__summary">Defined the frontend architecture for a genetic-testing platform processing very large volumes of scientific and diagnostic data.</p>
+        <dl class="work__evidence">
+          <div class="work__row"><dt>Challenge</dt><dd>A standardized genetic platform had to serve both diagnostics and research workflows, with data volumes well beyond a conventional web application.</dd></div>
+          <div class="work__row"><dt>My contribution</dt><dd>I defined the frontend architecture for the platform, and how complex scientific workflows were represented in the interface.</dd></div>
+          <div class="work__row"><dt>Technical approach</dt><dd>The architecture separated presentation from the volume of the underlying data — deciding which data the frontend actually needed, and rendering that rather than the full dataset — so the interface stayed responsive while the platform's overall data scale kept growing.</dd></div>
+          <div class="work__row"><dt>Outcome</dt><dd>A reusable frontend architecture that could absorb new tests, new workflows and new laboratories without rework.</dd></div>
+        </dl>
+      </article>
+
+    <h2>Experience</h2>
+      <article class="job">
+        <h3>Senior Architect</h3>
+        <p class="job__meta">Persistent Systems — Health &amp; Life Sciences <span class="job__period">Jun 2023 – Present</span></p>
+        <div class="job__body"><p>Senior Architect at Persistent Systems, consolidating a portfolio of legacy products into one umbrella solution for one of the largest US healthcare payers — without pausing the business.</p></div>
+      </article>
+      <article class="job">
+        <h3>Architect / Lead, Frontend</h3>
+        <p class="job__meta">US health-insurance platform · US genetics-testing company <span class="job__period">Dec 2021 – Nov 2022</span></p>
+        <div class="job__body"><p>Architect and lead across healthcare and genetics platforms — React modernization of a legacy insurance application, and frontend architecture for a genetic-testing platform handling very large data volumes.</p></div>
+      </article>
+      <article class="job">
+        <h3>Team Lead UI/UX · Senior Technical Consultant</h3>
+        <p class="job__meta">Conscience IT · Wizard Communication <span class="job__period">Feb 2017 – Jul 2021</span></p>
+        <div class="job__body"><p>Led frontend teams delivering custom e-commerce, healthcare and e-learning products, moving from implementation into UI architecture, technology evaluation and solution design.</p></div>
+      </article>
+      <article class="job">
+        <h3>Consultant / Technical Advisor</h3>
+        <p class="job__meta">Independent Consulting <span class="job__period">2012 – 2017</span></p>
+        <div class="job__body"><p>Five years of independent consulting and individual-contributor delivery across six industries, modernizing Flash-based legacy applications along the way.</p></div>
+      </article>
+      <article class="job">
+        <h3>Multimedia Programmer → Technology Manager</h3>
+        <p class="job__meta">Integrated Research · Aesthetic Technologies · Brainvisa (Encora) · Digital Domain · NIIT · Aptara <span class="job__period">Nov 2002 – Sep 2012</span></p>
+        <div class="job__body"><p>The first decade in multimedia and e-learning — interactive 3D presentations, CD-ROM applications, an e-learning automation product, simulations and learning platforms, across six employers.</p></div>
+      </article>
+
+    <h2>Education &amp; certifications</h2>
+<p>Diplomas in Fine Arts and in Multimedia — a creative foundation that still shows in how I approach UI, motion and user experience.</p>
+<p>Certified across cloud, AI tooling and user experience — with Persistent's internal programs behind them, and one honour worth its own row. The lot, at a glance:</p>
+
+    <h2>Technologies</h2>
+    <p class="tech"><span>React</span> <span>Next.js</span> <span>TypeScript</span> <span>JavaScript</span> <span>Angular</span> <span>SolidJS</span> <span>Node.js</span> <span>Redux / Zustand / Recoil / Jotai</span> <span>MUI / Carbon / Bootstrap</span> <span>Jest / Cypress</span> <span>Webpack / Vite</span> <span>Docker</span> <span>CI/CD</span> <span>AWS / GCP / Azure</span> <span>REST / GraphQL / SOAP</span> <span>MongoDB / Firebase</span> <span>ECMAScript</span> <span>CSS / SCSS / Sass</span> <span>Webpack / Vite / Gulp</span> <span>npm / Yarn / pnpm</span> <span>NATS / Nomad</span> <span>Mithril / Backbone / jQuery</span> <span>GSAP / FLIP / PixiJS / CreateJS</span> <span>Flash / Flex / ActionScript / Haxe / OpenFL</span> <span>SCORM / LMS / Moodle / CMS</span> <span>Agile / Scrum / SDLC</span> <span>Git</span> <span>Jira / Confluence / Clubhouse</span> <span>Figma / Balsamiq / Photoshop</span> <span>WCAG / WAI-ARIA</span> <span>Architecture design patterns / OOP / MVC / functional programming</span> <span>HIPAA</span> <span>Display.js / Boom</span></p>
+
+    <footer>
+      Ashim Saha &middot; Senior Technology Architect &middot; Pune, India &middot;
+      flashim@gmail.com &middot; +91 88888 48921
+    </footer>
+  </div>
+</body>
+</html>
