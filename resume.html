@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ashim Saha |  — Résumé</title>
+  <title>Ashim Saha | Software Architect — Résumé</title>
   <meta name="description" content="Interactive resume of Ashim Saha — Senior Technology Architect with 23+ years in software architecture, frontend engineering and enterprise modernization, with hands-on GenAI and LLM adoption. Ask me about my work, stack and domains." />
   <meta name="author" content="Ashim Saha" />
   <style>
@@ -72,10 +72,24 @@
     .resp__row dt { font: 600 8.5pt/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; text-transform: uppercase; letter-spacing: .05em; color: #0a58ca; padding-top: .05rem; }
     .resp__row dd { margin: 0; font-size: 9.5pt; line-height: 1.5; color: #262b33; }
     .resp__row { break-inside: avoid; }
-    footer { margin-top: 1.4rem; padding-top: .6rem; border-top: 1px solid #d7dae0; font-size: 8.5pt; color: #6b7280; text-align: center; }
-    @page { size: A4; margin: 12mm; }
+    footer { margin-top: .9rem; padding-top: .45rem; border-top: 1px solid #d7dae0; font-size: 8.5pt; color: #6b7280; text-align: center; }
+    @page { size: A4; margin: 9mm 11mm; }
     @media print {
-      body { background: #fff; font-size: 10.5pt; }
+      body { background: #fff; font-size: 10pt; line-height: 1.42; }
+      .summary, .cols li, .job__body p, .work__body p, .work__summary { font-size: 9.5pt; line-height: 1.42; }
+      .job__body p, .work__body p { margin: .18rem 0 0; }
+      .work__row dd { font-size: 9pt; }
+      .resp__row dd { font-size: 9pt; }
+      h2 { margin: .9rem 0 .35rem; }
+      .job, .work { margin-bottom: .6rem; }
+      .cols li { padding: .05rem; padding-left: .9rem; }
+      /* a long evidence table splits across pages row by row instead of
+         dragging the whole article to the next page and leaving a void */
+      .work { break-inside: auto; }
+      .work__row, .resp__row { break-inside: avoid; }
+      .tech { line-height: 1.4; }
+      .tech span { margin-right: .75rem; }
+      footer { margin-top: .7rem; }
       .toolbar { display: none !important; }
       .page { max-width: none; margin: 0; padding: 0; box-shadow: none; }
     }
@@ -89,8 +103,8 @@
 
   <div class="page">
     <header>
-      <h1>Ashim Saha<span class="sep">|</span><span class="role">Senior Technology Architect</span></h1>
-      <p class="sub">Frontend Architecture · Enterprise Modernization · AI-Assisted Engineering</p>
+      <h1>Ashim Saha<span class="sep">|</span><span class="role">Software Architect</span></h1>
+      <p class="sub">Solution Architecture · Enterprise Modernization · Cloud Integration · AI Engineering</p>
       <p class="contact">
         Pune, India &middot; +91 88888 48921 &middot;
         <a href="mailto:flashim@gmail.com">flashim@gmail.com</a> &middot;
@@ -100,7 +114,7 @@
     </header>
 
     <h2>Profile</h2>
-    <p class="summary">I define and drive software architecture end-to-end — the design, the code everyone builds on, and the deployment it lands on — with 23+ years across software engineering, frontend architecture and enterprise modernization.</p>
+    <p class="summary">Senior Technology Architect with over two decades of experience spanning software engineering, frontend architecture, solution design, and enterprise application modernization across product and services environments. Combines hands-on expertise in modern frontend technologies with experience in API design, backend integration, cloud-enabled solutions, and performance optimization. Brings a user-centred approach to system design, grounded in UX, design thinking, accessibility awareness, and human-computer interaction. Experienced in bridging business, product, and engineering teams, evaluating technical trade-offs, and establishing engineering practices that support maintainability, scalability, and long-term business value. Currently exploring AI-assisted engineering, local and frontier LLMs, and agentic development workflows.</p>
 
     <h2>Core competencies</h2>
     <ul class="cols">
@@ -181,7 +195,7 @@
     <h2>Experience</h2>
       <article class="job">
         <h3>Senior Architect</h3>
-        <p class="job__meta">Persistent Systems — Health &amp; Life Sciences <span class="job__period">Jun 2023 – Present</span></p>
+        <p class="job__meta">Persistent Systems — Health &amp; Life Sciences <span class="job__period">Nov 2021 – Present</span></p>
         <div class="job__body"><p>Senior Architect at Persistent Systems, consolidating a portfolio of legacy products into one umbrella solution for one of the largest US healthcare payers — without pausing the business.</p></div>
       </article>
       <article class="job">
@@ -212,17 +226,22 @@
 <li><strong>User Experience with AI Competency (Level 4)</strong> — User-experience competency</li>
 <li><strong>Cursor AI · VS Code · Whisperer · GitHub Copilot</strong> — AI tooling — IDE certificates</li>
 <li><strong>Propellor program · AI QuadLift</strong> — Persistent — internal programs</li>
-<li class="certs__award"><strong>Most Valuable Player in Architect category, 2025</strong> — Persistent</li></ul>
-<p>Diplomas in Fine Arts and in Multimedia — a creative foundation that still shows in how I approach UI, motion and user experience.</p>
+<li><strong>Agile · SCRUM · SDLC</strong> — Certified SCRUM Master and Agile practitioner</li>
+<li class="certs__award"><strong>Most Valuable Player in Architect category, 2025</strong> — Persistent accolade</li></ul>
+<dl class="resp"><div class="resp__row"><dt>B.Sc (Eco)</dt><dd>Barasat Govt. College, Kolkata  — 2001</dd></div>
+<div class="resp__row"><dt>Diploma in Fine Arts</dt><dd>Birla Academy, Kolkata — 2002</dd></div>
+<div class="resp__row"><dt>Diploma in Multimedia</dt><dd>Arena - 2002, groundwork of the early career in interactive applications and e-learning</dd></div>
+<div class="resp__row"><dt>Hands-on learning — development</dt><dd>Committed to continuous, self-directed learning to stay aligned with evolving technologies, engineering practices and architectural approaches. Over the course of my career, I have built and expanded my technical expertise through independent study, hands-on experimentation, technical research, prototyping and practical application in real-world projects.</dd></div>
+<div class="resp__row"><dt>Self-directed continuous learning and exploration</dt><dd>Agentic harnesses and local model setups; lab experiments and PoCs to explore the implications of AI tooling shifts; staying current with cloud-native patterns and architectural approaches; and actively engaging with the broader tech community through reading, discussions, and knowledge sharing.</dd></div></dl>
 
     <h2>Domain expertise</h2>
-    <p class="summary">Healthcare is my deepest domain: umbrella consolidation for one of the largest US healthcare payers, remote patient monitoring for a health-tech startup, genetic-testing platforms at petabyte scale, health-insurance modernization, care-management evaluation for a social-care solutions provider, and UI architecture evaluation for scientific instruments and analytical systems</p>
+    <p class="summary">My recent engagement, Healthcare domain: umbrella consolidation for one of the largest US healthcare payers, remote patient monitoring for a health-tech startup, genetic-testing platforms at petabyte scale, health-insurance modernization, care-management evaluation for a social-care solutions provider, and UI architecture evaluation for scientific instruments and analytical systems</p>
 
     <h2>Technologies</h2>
     <p class="tech"><span>React</span> <span>Next.js</span> <span>TypeScript</span> <span>JavaScript</span> <span>Angular</span> <span>SolidJS</span> <span>Node.js</span> <span>Redux / Zustand / Recoil / Jotai</span> <span>MUI / Carbon / Bootstrap</span> <span>Jest / Cypress</span> <span>Webpack / Vite</span> <span>Docker</span> <span>CI/CD</span> <span>AWS / GCP / Azure</span> <span>REST / GraphQL / SOAP</span> <span>MongoDB / Firebase</span> <span>ECMAScript</span> <span>CSS / SCSS / Sass</span> <span>Webpack / Vite / Gulp</span> <span>npm / Yarn / pnpm</span> <span>NATS / Nomad</span> <span>Mithril / Backbone / jQuery</span> <span>GSAP / FLIP / PixiJS / CreateJS</span> <span>Flash / Flex / ActionScript / Haxe / OpenFL</span> <span>SCORM / LMS / Moodle / CMS</span> <span>Agile / Scrum / SDLC</span> <span>Git</span> <span>Jira / Confluence / Clubhouse</span> <span>Figma / Balsamiq / Photoshop</span> <span>WCAG / WAI-ARIA</span> <span>Architecture design patterns / OOP / MVC / functional programming</span> <span>HIPAA</span> <span>Display.js</span></p>
 
     <footer>
-      Ashim Saha &middot; Senior Technology Architect &middot; Pune, India &middot;
+      Ashim Saha &middot; Software Architect &middot; Pune, India &middot;
       flashim@gmail.com &middot; +91 88888 48921
     </footer>
   </div>
