@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ashim Saha | AI Architect &amp; Builder — Résumé</title>
+  <title>Ashim Saha | Architect | AI Builder — Résumé</title>
   <meta name="description" content="Interactive resume of Ashim Saha — Senior Technology Architect with 23+ years in software architecture, frontend engineering and enterprise modernization, with hands-on GenAI and LLM adoption. Ask me about my work, stack and domains." />
   <meta name="author" content="Ashim Saha" />
   <style>
@@ -54,6 +54,9 @@
     .certs__award strong { color: #0a58ca; }
     .tech { font: 9.5pt/1.7 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: #3c424b; }
     .tech span { display: inline-block; margin-right: .9rem; }
+    .tech--focus { color: #0a58ca; }
+    .tech--focus strong { color: #14161a; }
+    .tech--legacy { color: #9aa0a8; }
     .job, .work { break-inside: avoid; margin-bottom: .95rem; }
     .job h3, .work h3 { margin: 0; font-size: 11pt; }
     .job__meta { margin: .15rem 0 .35rem; font: 9.5pt/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: #0a58ca; }
@@ -103,8 +106,8 @@
 
   <div class="page">
     <header>
-      <h1>Ashim Saha<span class="sep">|</span><span class="role">AI Architect &amp; Builder</span></h1>
-      <p class="sub">Solution Architecture · Enterprise Modernization · Cloud Integration · AI Engineering</p>
+      <h1>Ashim Saha<span class="sep">|</span><span class="role">Architect | AI Builder</span></h1>
+      <p class="sub">Frontend Architecture · Enterprise Modernization · Cloud Integration · AI Engineering</p>
       <p class="contact">
         Pune, India &middot; +91 88888 48921 &middot;
         <a href="mailto:flashim@gmail.com">flashim@gmail.com</a> &middot;
@@ -156,10 +159,10 @@
 
     <h2>Selected work</h2>
       <article class="work">
-        <h3>AI-Assisted Claims Recommendation — Proposal &amp; PoC for an HR Platform</h3>
-        <p class="work__summary">Solutioned and won a 2025 proposal for an AI-assisted claims-recommendation plugin for an HR platform — a rules + ML hybrid that recommends eligibility decisions on employee claims, with a demonstrated proof of concept.</p>
+        <h3>AI-Assisted Claims Recommendation — Proposal &amp; PoC for an Healthcare Resource Platform</h3>
+        <p class="work__summary">Solutioned and won a 2025 proposal for an AI-assisted claims-recommendation plugin for an Healthcare Resource Platform — a rules + ML hybrid that recommends eligibility decisions on employee claims, with a demonstrated proof of concept.</p>
         <dl class="work__evidence">
-          <div class="work__row"><dt>Challenge</dt><dd>Claims on an HR platform — reimbursements, benefits, insurance — were reviewed manually against plan rules that vary by policy, geography and dependent status. The client wanted faster, more consistent decisions without losing governance: no black-box approvals, no silent rule drift. The proposal had to show an AI approach the business could defend.</dd></div>
+          <div class="work__row"><dt>Challenge</dt><dd>Claims adjucation on an HRP platform — reimbursements, benefits, insurance — were reviewed manually against plan rules that vary by policy, geography and dependent status. The client wanted faster, more consistent decisions without losing governance: no black-box approvals, no silent rule drift. The proposal had to show an AI approach the business could defend.</dd></div>
           <div class="work__row"><dt>My contribution</dt><dd>I led the proof of concept end to end and shaped the solution story: how the recommendation engine splits responsibility between deterministic rules and learned patterns, what the reviewer sees for each recommendation, how the plugin embeds in the existing HRP interface, and what it means operationally. I prepared the architecture diagrams for the proposal, and collaborated with the domain team on entitlement logic and with the sales team on how the case gets heard in the room.</dd></div>
           <div class="work__row"><dt>Technical approach</dt><dd>The heart of the design is a deliberate split: a deterministic eligibility engine owns the hard constraints — plan rules, policy limits, dependent entitlements — and an ML recommendation layer sits on top for the judgement calls, learning from historical outcomes. Every recommendation arrives with its grounds — the rule that fired or the pattern that matched — so a reviewer can trust, correct and audit it. The PoC ran the recommendation flow inside the actual claims journey of the HRP UI, as a plugin rather than a separate portal.</dd></div>
           <div class="work__row"><dt>Tools used</dt><dd>Deterministic rules engine · ML recommendation layer · explainable recommendation flow · HRP UI plugin PoC</dd></div>
@@ -239,16 +242,17 @@
 <dl class="resp"><div class="resp__row"><dt>Self-directed continuous learning and exploration</dt><dd>Agentic harnesses and local model setups; lab experiments and PoCs to explore the implications of AI tooling shifts; staying current with cloud-native patterns and architectural approaches; and actively engaging with the broader tech community through reading, discussions, and knowledge sharing.</dd></div>
 <div class="resp__row"><dt>Hands-on learning — development</dt><dd>Committed to continuous, self-directed learning to stay aligned with evolving technologies, engineering practices and architectural approaches. Over the course of my career, I have built and expanded my technical expertise through independent study, hands-on experimentation, technical research, prototyping and practical application in real-world projects.</dd></div>
 <div class="resp__row"><dt>Diploma in Fine Arts</dt><dd>Birla Academy, Kolkata — 2002</dd></div>
-<div class="resp__row"><dt>Diploma in Multimedia</dt><dd>Arena - 2002</dd></div></dl>
+<div class="resp__row"><dt>Diploma in Multimedia</dt><dd>Aptech Arena, Kolkata — 2002</dd></div></dl>
 
     <h2>Domain expertise</h2>
     <p class="summary">My recent engagement, Healthcare domain: umbrella consolidation for one of the largest US healthcare payers, remote patient monitoring for a health-tech startup, genetic-testing platforms at petabyte scale, health-insurance modernization, care-management evaluation for a social-care solutions provider, and UI architecture evaluation for scientific instruments and analytical systems</p>
 
     <h2>Technologies</h2>
-    <p class="tech"><span>React</span> <span>Next.js</span> <span>TypeScript</span> <span>JavaScript</span> <span>Angular</span> <span>SolidJS</span> <span>Node.js</span> <span>Redux / Zustand / Recoil / Jotai</span> <span>MUI / Carbon / Bootstrap</span> <span>Jest / Cypress</span> <span>Webpack / Vite</span> <span>Docker</span> <span>CI/CD</span> <span>AWS / GCP / Azure</span> <span>REST / GraphQL / SOAP</span> <span>MongoDB / Firebase</span> <span>ECMAScript</span> <span>CSS / SCSS / Sass</span> <span>Webpack / Vite / Gulp</span> <span>npm / Yarn / pnpm</span> <span>NATS / Nomad</span> <span>Mithril / Backbone / jQuery</span> <span>GSAP / FLIP / PixiJS / CreateJS</span> <span>Flash / Flex / ActionScript / Haxe / OpenFL</span> <span>SCORM / LMS / Moodle / CMS</span> <span>Agile / Scrum / SDLC</span> <span>Git</span> <span>Jira / Confluence / Clubhouse</span> <span>Figma / Balsamiq / Photoshop</span> <span>WCAG / WAI-ARIA</span> <span>Architecture design patterns / OOP / MVC / functional programming</span> <span>HIPAA</span> <span>Display.js</span></p>
+    <p class="tech tech--focus"><strong>Agent &amp; AI stack — in focus</strong> (development work is handed to the agents; the setup, the plumbing and the review stay controlled): <span>Agent harnesses (OpenCode · Claude · OpenHands · Hermes)</span> <span>GenAI / LLM pipelines</span> <span>RAG / MCP / evals</span> <span>Ollama (local models)</span> <span>GitHub Copilot / Cursor / Cline</span> <span>Expo / Electron</span> <span>PhoneGap / Cordova</span> <span>Raspberry Pi</span></p>
+    <p class="tech tech--legacy"><span>React</span> <span>Next.js</span> <span>TypeScript</span> <span>JavaScript</span> <span>Angular</span> <span>SolidJS</span> <span>Node.js</span> <span>Redux / Zustand / Recoil / Jotai</span> <span>MUI / Carbon / Bootstrap</span> <span>Jest / Cypress</span> <span>Webpack / Vite</span> <span>Docker</span> <span>CI/CD</span> <span>AWS / GCP / Azure</span> <span>REST / GraphQL / SOAP</span> <span>MongoDB / Firebase</span> <span>ECMAScript</span> <span>CSS / SCSS / Sass</span> <span>Webpack / Vite / Gulp</span> <span>npm / Yarn / pnpm</span> <span>NATS / Nomad</span> <span>Mithril / Backbone / jQuery</span> <span>GSAP / FLIP / PixiJS / CreateJS</span> <span>Flash / Flex / ActionScript / Haxe / OpenFL</span> <span>SCORM / LMS / Moodle / CMS</span> <span>Agile / Scrum / SDLC</span> <span>Git</span> <span>Jira / Confluence / Clubhouse</span> <span>Figma / Balsamiq / Photoshop</span> <span>WCAG / WAI-ARIA</span> <span>Architecture design patterns / OOP / MVC / functional programming</span> <span>HIPAA</span> <span>Display.js</span></p>
 
     <footer>
-      Ashim Saha &middot; AI Architect &amp; Builder &middot; Pune, India &middot;
+      Ashim Saha &middot; Architect | AI Builder &middot; Pune, India &middot;
       flashim@gmail.com &middot; +91 88888 48921
     </footer>
   </div>
